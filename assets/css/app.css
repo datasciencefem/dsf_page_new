@@ -1,0 +1,39 @@
+.btn-rounded span {
+    position: absolute;
+    background-color: #07726D;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #721f54;
+    border-color: #721f54;
+
+}
+
+.btn-secondary:hover {
+    color: #000;
+    background-color: #07726d;
+    border-color: #721f54;
+  }
+
+.btn-primary:hover {
+    color: #f9fafb;
+    background-color: #07726d;
+    border-color: #721f54;
+  }
+
+.btn-check:checked+.btn-primary,
+.btn-check:active+.btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show>.btn-primary.dropdown-toggle {
+  color:   #fff;
+  background-color: #721f54;
+  border-color: #721f54;
+}
