@@ -114,7 +114,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.000rem + 0.3vw);
 }
 
 @media (min-width: 1200px) {
@@ -528,19 +528,19 @@ progress {
 
 @media (min-width: 1200px) {
   .display-2 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
 }
 
 @media (min-width: 1200px) {
   .display-3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -7875,7 +7875,7 @@ fieldset:disabled .btn {
 }
 
 .p-4 {
-  padding: 1.5rem !important;
+  padding: 3.5rem !important;
 }
 
 .p-5 {
